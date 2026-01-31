@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.controls {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background: white;
+}
+
+tbody tr:nth-child(even) {
+  background: #eee;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+/* Hover description */
+.desc {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.desc:hover {
+  white-space: normal;
+  background: black;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  z-index: 10;
+}
+
+th {
+  cursor: pointer;
+}
+
+#pagination button {
+  margin: 5px;
+  padding: 5px 10px;
+}

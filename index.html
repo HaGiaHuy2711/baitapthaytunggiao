@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hà Gia Huy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h2>Product Dashboard</h2>
+
+<div class="controls">
+  <input type="text" id="search" placeholder="Search by title..." />
+  <select id="limit">
+    <option value="5">5</option>
+    <option value="10" selected>10</option>
+    <option value="20">20</option>
+  </select>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Image</th>
+      <th id="sortTitle">Title ⬍</th>
+      <th id="sortPrice">Price ⬍</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody id="tbody"></tbody>
+</table>
+
+<div id="pagination"></div>
+
+<script src="main.js"></script>
+</body>
+</html>
