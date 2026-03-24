@@ -1,0 +1,32 @@
+{
+  "name": "import-user-excel-mailtrap",
+  "version": "1.0.0",
+  "description": "Import users from Excel, generate random password, assign user role, and send credentials via Mailtrap",
+  "main": "src/server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "excel",
+    "mailtrap",
+    "nodemailer",
+    "user-import"
+  ],
+  "author": "Ha Huy",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "nodemailer": "^8.0.3",
+    "xlsx": "^0.18.5"
+  }
+}
